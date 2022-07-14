@@ -1,0 +1,20 @@
+{% parts(content) %}
+    <h1>Welcome to holy template engine</h1>
+{% endparts %}
+
+
+
+{% parts(css) %}
+    <style>
+        h1{
+            color: orange;
+        }
+    </style>
+{% endparts %}
+
+
+{% parts(js) %}
+    <script>
+        alert("Welcome!")
+    </script>
+{% endparts %}

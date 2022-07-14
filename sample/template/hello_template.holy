@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ $title }}</title>
+    </head>
+    <body>
+        {% paste_here(content) %}
+    </body>
+</html>
